@@ -1,5 +1,7 @@
 ## 为什么给 react-test-renderer 编写扩展，而不是直接使用 `enzyme`
 
+enzyme 是一个非常好的 React 测试库，不过随着 React 近期的快速迭代，enzyme 的更新已经落后于官方的 react-test-renderer，所以我们只需要为 react-test-renderer 添加扩展，满足绝大部分 React 测试所需，就可以享受最新的 React 功能。
+
 - react-test-renderer 对 React 新功能如 hooks 有着很好的支持
 - react-test-renderer 对 styled-component 等对象有着很好的样式内容的识别
 - TDD 的目的是辅助监督我们的代码实现，对于 UI 组件来说我们只需要有 DOM 快照、DOM 事件修改状态、组件状态校验即可，react-test-renderer 已经满足了以上需求，缺点只是不方便检索对象，所以编写一个 helper 扩展即可
