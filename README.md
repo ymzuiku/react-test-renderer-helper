@@ -185,6 +185,8 @@ export function toSnapshot(component, id) {
 
 以上业务均已通过测试，项目和 Demo 的测试覆盖率 100%
 
+clone 此项目， 运行： `yarn test` :
+
 ```
 ----------------|----------|----------|----------|----------|-------------------|
 File            |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
