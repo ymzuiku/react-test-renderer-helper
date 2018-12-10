@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`find find className 1`] = `
+<div
+  className="test-className"
+>
+  test-className
+</div>
+`;
+
+exports[`find find id 1`] = `
+<div
+  id="test-id"
+>
+  test-id
+</div>
+`;
+
+exports[`find find key: find-alt 1`] = `
+<img
+  alt="test-alt"
+  src="test-alt"
+/>
+`;
+
+exports[`find find key: find-className 1`] = `
+<div
+  className="test-className"
+>
+  test-className
+</div>
+`;
+
+exports[`find find key: find-id 1`] = `
+<div
+  id="test-id"
+>
+  test-id
+</div>
+`;
+
+exports[`find find key: find-name 1`] = `
+<div
+  name="test-name"
+>
+  test-name
+</div>
+`;
+
+exports[`find find key: find-type 1`] = `
+<input
+  name="test-type1"
+/>
+`;
+
+exports[`find find name 1`] = `
+<div
+  name="test-name"
+>
+  test-name
+</div>
+`;
+
+exports[`find find root 1`] = `
+<div>
+  <div
+    id="test-id"
+  >
+    test-id
+  </div>
+  <div
+    name="test-name"
+  >
+    test-name
+  </div>
+  <div
+    className="test-className"
+  >
+    test-className
+  </div>
+  <img
+    alt="test-alt"
+    src="test-alt"
+  />
+  <input
+    name="test-type0"
+  />
+  <input
+    name="test-type1"
+  />
+  <input
+    name="test-type2"
+  />
+</div>
+`;
+
+exports[`toSnapshot toSnapshot: toSnapshot 1`] = `
+Object {
+  "props": Object {},
+  "state": null,
+  "status": undefined,
+  "zip": <div>
+    <div
+      id="test-id"
+    >
+      test-id
+    </div>
+    <div
+      name="test-name"
+    >
+      test-name
+    </div>
+    <div
+      className="test-className"
+    >
+      test-className
+    </div>
+    <img
+      alt="test-alt"
+      src="test-alt"
+    />
+    <input
+      name="test-type0"
+    />
+    <input
+      name="test-type1"
+    />
+    <input
+      name="test-type2"
+    />
+  </div>,
+}
+`;
+
+exports[`toSnapshot toSnapshot: toSnapshot 2`] = `
+Object {
+  "other": Object {
+    "data": Object {
+      "age": 100,
+      "name": "dipu",
+    },
+  },
+  "props": Object {},
+  "state": null,
+  "status": undefined,
+  "zip": <div>
+    <div
+      id="test-id"
+    >
+      test-id
+    </div>
+    <div
+      name="test-name"
+    >
+      test-name
+    </div>
+    <div
+      className="test-className"
+    >
+      test-className
+    </div>
+    <img
+      alt="test-alt"
+      src="test-alt"
+    />
+    <input
+      name="test-type0"
+    />
+    <input
+      name="test-type1"
+    />
+    <input
+      name="test-type2"
+    />
+  </div>,
+}
+`;
+
+exports[`toSnapshotByHooks toSnapshotByHooks no-status: toSnapshot-no-status 1`] = `
+Object {
+  "props": Object {},
+  "zip": <div>
+    <div
+      id="test-id"
+    >
+      test-id
+    </div>
+    <div
+      name="test-name"
+    >
+      test-name
+    </div>
+    <div
+      className="test-className"
+    >
+      test-className
+    </div>
+    <img
+      alt="test-alt"
+      src="test-alt"
+    />
+    <input
+      name="test-type0"
+    />
+    <input
+      name="test-type1"
+    />
+    <input
+      name="test-type2"
+    />
+  </div>,
+}
+`;
+
+exports[`toSnapshotByHooks toSnapshotByHooks: toSnapshot 1`] = `
+Object {
+  "props": Object {},
+  "status": undefined,
+  "zip": <div>
+    <div
+      id="test-id"
+    >
+      test-id
+    </div>
+    <div
+      name="test-name"
+    >
+      test-name
+    </div>
+    <div
+      className="test-className"
+    >
+      test-className
+    </div>
+    <img
+      alt="test-alt"
+      src="test-alt"
+    />
+    <input
+      name="test-type0"
+    />
+    <input
+      name="test-type1"
+    />
+    <input
+      name="test-type2"
+    />
+  </div>,
+}
+`;

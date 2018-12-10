@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App click 10次 1`] = `
+Object {
+  "props": Object {
+    "bb": 20,
+  },
+  "status": Object {
+    "num": 10,
+  },
+  "zip": <div>
+    <header>
+      <h2>
+        10
+      </h2>
+      <p
+        id="test-click"
+        onClick={[Function]}
+      >
+        Edit 
+        <code>
+          src/App.js
+        </code>
+         and save to reload.
+      </p>
+      <a
+        href="https://reactjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn React
+      </a>
+    </header>
+  </div>,
+}
+`;
+
+exports[`App 初始化渲染快照: render 1`] = `
+Object {
+  "props": Object {
+    "bb": 20,
+  },
+  "status": Object {
+    "num": 0,
+  },
+  "zip": <div>
+    <header>
+      <h2>
+        0
+      </h2>
+      <p
+        id="test-click"
+        onClick={[Function]}
+      >
+        Edit 
+        <code>
+          src/App.js
+        </code>
+         and save to reload.
+      </p>
+      <a
+        href="https://reactjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Learn React
+      </a>
+    </header>
+  </div>,
+}
+`;
