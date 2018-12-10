@@ -14,7 +14,6 @@ App.js
 
 ```js
 import React from 'react';
-import tester from 'react-test-renderer-helper/tester';
 
 class App extends React.Component {
   state = {
@@ -85,7 +84,7 @@ App.js
 
 ```js
 import React from 'react';
-import tester from 'react-test-renderer-helper/tester';
+import tester from 'react-test-renderer-helper/lib/tester';
 
 function App() {
   const [num, setNum] = React.useState(0);
