@@ -45,4 +45,4 @@ export function find(component: ReactTestRenderer, id: string): ReactTestInstanc
 export function getStatus(key: any): any;
 export function clearStatus(key: any): void;
 export function toSnapshotByHooks(component: ReactTestRenderer): ISnapshot;
-export function toSnapShot(component: ReactTestRenderer, ...any): ISnapshot;
+export function toSnapshot(component: ReactTestRenderer, ...any): ISnapshot;
